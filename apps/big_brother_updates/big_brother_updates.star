@@ -48,7 +48,15 @@ def text(value, color = WHITE, font = FONT):
     return render.Text(content = value, font = font, color = color)
 
 def centered(child, width = 64, height = 32):
-    return render.Box(child = child, width = width, height = height, horizontal_alignment = "center", vertical_alignment = "center")
+    return render.Box(
+        width = width,
+        height = height,
+        child = render.Column(
+            children = [child],
+            main_align = "center",
+            cross_align = "center",
+        ),
+    )
 
 def title_bar(label, color = BLUE):
     return render.Box(
@@ -114,7 +122,7 @@ def memory_page(houseguests, start, page, total):
         people.append(avatar(houseguests[i]))
         if i < min(start + 4, len(houseguests)) - 1:
             people.append(render.Box(width = 2))
-    while len(people) < 7:
+    for _ in range(7 - len(people)):
         people.append(render.Box(width = 14))
     return render.Box(
         width = 64,
@@ -169,8 +177,8 @@ def main(config):
         frames.append(memory_page(houseguests, page * 4, page + 1, pages))
 
     return render.Root(
-        child = render.Animation(children = frames, delay = 2200),
-        delay = 100,
+        child = render.Animation(children = frames),
+        delay = 2200,
     )
 
 def get_schema():
