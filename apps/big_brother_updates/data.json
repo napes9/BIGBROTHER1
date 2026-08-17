@@ -1,0 +1,26 @@
+{
+  "season": "BB28",
+  "week": "WEEK 6",
+  "hoh": "YASH PATEL",
+  "nominees": ["KAMU KIRK", "ANGELA MURRAY", "HALEY THOGMARTIN"],
+  "veto": "YASH + RICK DPOV",
+  "houseguests": [
+    {"name": "YASH", "photo": "https://raw.githubusercontent.com/napes9/BIGBROTHER1/main/photos/yash.webp", "evicted": false},
+    {"name": "ANGELA", "photo": "https://raw.githubusercontent.com/napes9/BIGBROTHER1/main/photos/angela.webp", "evicted": false},
+    {"name": "HALEY", "photo": "https://raw.githubusercontent.com/napes9/BIGBROTHER1/main/photos/haley.webp", "evicted": false},
+    {"name": "KAMU", "photo": "https://raw.githubusercontent.com/napes9/BIGBROTHER1/main/photos/kamu.webp", "evicted": false},
+    {"name": "BARRETT", "photo": "https://raw.githubusercontent.com/napes9/BIGBROTHER1/main/photos/barrett.webp", "evicted": false},
+    {"name": "DEE", "photo": "https://raw.githubusercontent.com/napes9/BIGBROTHER1/main/photos/dee.webp", "evicted": false},
+    {"name": "DREW", "photo": "https://raw.githubusercontent.com/napes9/BIGBROTHER1/main/photos/drew.webp", "evicted": false},
+    {"name": "LALA", "photo": "https://raw.githubusercontent.com/napes9/BIGBROTHER1/main/photos/lala.webp", "evicted": false},
+    {"name": "MALLORY", "photo": "https://raw.githubusercontent.com/napes9/BIGBROTHER1/main/photos/mallory.webp", "evicted": false},
+    {"name": "MELODY", "photo": "https://raw.githubusercontent.com/napes9/BIGBROTHER1/main/photos/melody.webp", "evicted": false},
+    {"name": "RICK", "photo": "https://raw.githubusercontent.com/napes9/BIGBROTHER1/main/photos/rick.webp", "evicted": false},
+    {"name": "TAYLOR", "photo": "https://raw.githubusercontent.com/napes9/BIGBROTHER1/main/photos/taylor.webp", "evicted": false},
+    {"name": "CHUK", "photo": "https://raw.githubusercontent.com/napes9/BIGBROTHER1/main/photos/chuk.webp", "evicted": true},
+    {"name": "LYRIC", "photo": "https://raw.githubusercontent.com/napes9/BIGBROTHER1/main/photos/lyric.webp", "evicted": true},
+    {"name": "JASON", "photo": "https://raw.githubusercontent.com/napes9/BIGBROTHER1/main/photos/jason.webp", "evicted": true},
+    {"name": "ROME", "photo": "https://raw.githubusercontent.com/napes9/BIGBROTHER1/main/photos/rome.webp", "evicted": true},
+    {"name": "ASHLEY", "photo": "https://raw.githubusercontent.com/napes9/BIGBROTHER1/main/photos/ashley.webp", "evicted": true}
+  ]
+}
