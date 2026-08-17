@@ -1,0 +1,17 @@
+---
+id: makerworld-downloads
+name: MakerWorld Downloads
+summary: Live MakerWorld download total
+desc: Automatically displays the total downloads shown on a public MakerWorld creator profile. Enter the numeric profile ID from your MakerWorld profile URL. No password or API key is required.
+author: Evan
+fileName: app.star
+packageName: makerworlddownloads
+settings:
+  - name: profile_id
+    title: MakerWorld username or ID
+    type: string
+    description: Your public @username without the @ sign, such as NAPES9. A numeric profile ID also works.
+  - name: display_name
+    title: Display name
+    type: string
+    description: Optional short name shown beneath the total.
